@@ -2,7 +2,7 @@ name: check-trailing-whitespaces
 on: [pull_request]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     steps:
       - uses: actions/checkout@v2
       - run: |
